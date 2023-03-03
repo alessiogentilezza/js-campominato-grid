@@ -65,4 +65,11 @@ footer {
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: solid 1px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square.d-none {
+    display: none;
 }
