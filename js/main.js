@@ -9,12 +9,12 @@ for (let i = 1; i <= 100; i++) {
     gridDom.append(elementoGriglia);
 }
 
-
-// let displayShow = document.getElementsByClassName('square');
-
 playGrid.addEventListener('click',
+
     function () {
         let displayShow = document.getElementsByClassName('square');
+        for (let i = 0; i < displayShow.length; i++) {
+            displayShow[i].classList.toggle('d-none');
+        }
 
-        displayShow.classList.toggle('d-none');
     });
