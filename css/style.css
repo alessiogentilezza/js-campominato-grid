@@ -38,7 +38,7 @@ header {
 
 main {
     background-color: blueviolet;
-    /* height: calc(100vh - 140px); */
+    height: calc(100vh - 140px);
     padding: 10px;
     /* height: 600px; */
 }
@@ -55,6 +55,7 @@ footer {
 
 #grid {
     width: 500px;
+    height: 100%;
     /* height: calc(100vh - 140px); */
     /* width: 500px;
     height:500px; */
@@ -72,10 +73,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 
 }
 
 .d-flex {
     display: flex;
+}
+
+
+.back-ground{
+    background-color: blue;
 }
