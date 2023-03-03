@@ -38,7 +38,7 @@ header {
 
 main {
     background-color: blueviolet;
-    height: calc(100vh - 140px);
+    /* height: calc(100vh - 140px); */
     padding: 10px;
     /* height: 600px; */
 }
