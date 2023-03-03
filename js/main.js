@@ -14,7 +14,7 @@ playGrid.addEventListener('click',
     function () {
         let displayShow = document.getElementsByClassName('square');
         for (let i = 0; i < displayShow.length; i++) {
-            displayShow[i].classList.toggle('d-none');
+            displayShow[i].classList.toggle('d-flex');
         }
 
     });
