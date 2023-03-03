@@ -31,20 +31,38 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+
 .logo img {
     height: 100%;
 }
 
-main{
+main {
     background-color: blueviolet;
-    height: 500px;
+    /* height: calc(100vh - 140px); */
+    /* height: 600px; */
 }
 
-footer{
+footer {
     height: 70px;
     background-color: rgb(255, 255, 255);
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     padding: 0 10px;
+}
+
+
+#grid {
+    border: 1px dashed red;
+    width: 500px;
+    height:500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: solid 1px rgb(255, 255, 255);
 }
